@@ -1,0 +1,74 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+#menu {
+  background-color: #789;
+}
+#menu ul {
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  display: inline-block;
+}
+#menu a {
+  display: block;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.main-title {
+  padding: 110px;
+  font-size: 36px;
+  text-align: center;
+  background-color: orange;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+#home {
+  padding: 80px;
+  background-color: #41DFBF;
+}
+
+#program {
+  padding: 80px;
+  color: white;
+  background-color: #7641DF;
+}
+#program ul {
+  list-style-type: none;
+  text-align: center;
+}
+#program li span {
+  font-size: 14px;
+}
+#program .zadanie1 h5 {
+  text-align: center;
+}
+#program .zadanie1 ul {
+  display: block;
+  padding: 20px;
+}
+#program .zadanie1 li {
+  display: inline-block;
+  padding-right: 20px;
+}
+#program .zadanie2 h5 {
+  padding: 10px;
+  text-align: center;
+}
+#program .zadanie3 {
+  margin-left: 120px;
+  margin-right: 120px;
+  padding: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
