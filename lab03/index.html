@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Konkurs Informatyczny</title>
 </head>
 <body>
-    <nav class="menu">
-        <a href="#home">Home</a>
-        <a href="#program">Program</a>
-        <a href="#organizatorzy">Organizatorzy</a>      
-        <a href="#sponsorzy">Sponsorzy</a>
-        <a href="#kontakt">Kontakt</a>
+  <nav id="menu">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#program">Program</a></li>
+        <li><a href="#organizatorzy">Organizatorzy</a>  </li>
+        <li><a href="#sponsorzy">Sponsorzy</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
     </nav>
-    <div class="main-title">KONKURS INFORMATYCZNY</div>
-    <div class="subtitle">dla uczniów klas VII-VIII szkół podstawowych</div>
+    <div class="main-title">KONKURS INFORMATYCZNY <br> <span class="subtitle">dla uczniów klas VII-VIII szkół podstawowych</span></div>
 
     <div id="home">
         <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan. Commodo odio aenean sed adipiscing. Ultricies integer quis auctor elit sed. Id aliquet lectus proin nibh nisl condimentum id venenatis a. Vitae turpis massa sed elementum tempus egestas sed sed. Lacus sed viverra tellus in. Eu sem integer vitae justo eget magna fermentum iaculis. Morbi tristique senectus et netus et malesuada fames. Turpis egestas pretium aenean pharetra magna. Adipiscing commodo elit at imperdiet dui accumsan. Lacus laoreet non curabitur gravida arcu. Eu ultrices vitae auctor eu augue. Tincidunt eget nullam non nisi est. Velit laoreet id donec ultrices tincidunt arcu. Ornare lectus sit amet est placerat.
@@ -35,7 +37,7 @@
             <li>
                 <h3>ETAP 1 - Historia Informatyki</h3>
                 <span>Ten etap składa się z trzech pytań ABCD, tylko jedna odpowiedź jest poprawna</span>
-                <div class="zadanie1-1">
+                <div class="zadanie1">
                     <h5>Kto stworzył system operacyjny LINUX?</h5>
                     <ul>
                         <li>
@@ -61,7 +63,7 @@
                       </ul>
 
                 </div>
-                <div class="zadanie1-2">
+                <div class="zadanie1">
                     <h5>Jak nazywał się pierwszy komputer elektroniczny?</h5>
                     <ul>
                         <li>
@@ -86,7 +88,7 @@
                 
                       </ul>
                 </div>
-                <div class="zadanie1-3">
+                <div class="zadanie1">
                     <h5>Kto skontruował pierwszy komputer firmy Apple - Apple I?</h5>
                     <ul>
                         <li>
@@ -115,27 +117,43 @@
             <li>
                 <h3>ETAP 2 - Internet</h3>
                 <span>Ten etap składa się z 3 pytań otwartych.</span>
-                <div class="zadanie2-1">
-                    <h5></h5>
+                <div class="zadanie2">
+                  <h5>1. Jakiego języka używamy to tworzenia strony internetowej, który powstał w 1993 roku?
+                    <br>Opisz krótko najpotrzebniejsze elementy do utworzenia strony, która wyświetla na ekranie "Hello World".</h5>
+                  <textarea rows="8" cols="80" placeholder="Odpowiedź...">
+                  </textarea>
                 </div>
-                <div class="zadanie2-2"></div>
-                <div class="zadanie2-3"></div>
+                <div class="zadanie2">
+                  <h5>2. Wymień 5 najpopularniejszych darmowych wyszukiwarek internetowych oraz firmy, które je wydały. </h5>
+                  <textarea rows="8" cols="80" placeholder="Odpowiedź...">
+                  </textarea>
+                </div>
+                <div class="zadanie2">
+                  <h5>3. Co oznacza skrót HTTP? Podaj min. 5 metod HTTP.</h5>
+                  <textarea rows="6" cols="60" placeholder="Odpowiedź...">
+                  </textarea>
+                </div>
             </li>
             <li>
-                <h3>ETAP 3 - Informatyka na co dzień</h3>
-                <div class="zadanie3-1">
-                    
+                <h3>ETAP 3 - Zastowanie języków programowania</h3>
+                <span>Rozwiązanie zadań (pliki źródłowe) przesłać na email: XYZ@konkursinf.pl</span>
+                <div class="zadanie3">
+                    <h5>1. Przepis na danie</h5>
+                        Stwórz stronę internetową, na której będzie się znajdował przepis danej potrawy.
+                        Może to być danie główne, zupa, deser itp. Pamiętaj aby znajdowała się na stronie
+                        lista produktów do zakupienia i opis krok po kroku co trzeba wykonać, aby zrobić wybrane danie.
                 </div>
-                <div class="zadanie3-2"></div>
-                <div class="zadanie3-3"></div>
+                <div class="zadanie3">
+                    <h5>2. Polskie znaki</h5>
+                      Napisz skrypt w Pythonie, który będzie wyszukiwać znaki polskie w podanym tekście.
+                      Tekst jest zawarty w załączniku : ...
+                </div>
             </li>
-            <li>cztery</li>
-            <li>piec</li>
         </ul>
     </div>
 
     <div id="organizatorzy">
-        Organizatorem jest Insytut Informatki Uniwersytetu Gdańskiego.
+        Organizatorem jest Instytut Informatki Uniwersytetu Gdańskiego.
     </div>
 
     <div id="sponsorzy">
